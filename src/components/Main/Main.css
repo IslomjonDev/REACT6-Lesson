@@ -1,0 +1,139 @@
+.hero{
+    background:#E6E6E6;
+    padding: 220px 0;
+}
+.hero-content{
+    display: flex;
+    gap: 200px;
+}
+.hero-left{
+    h1{
+        width: 522.06px;
+        font-family: Arial;
+font-size: 55px;
+line-height: 68px;
+
+    }
+    p{
+        width: 488.04px;
+        height: 47.25px;
+        top: 2px;
+        gap: 0px;
+        opacity: .7;
+    }
+
+}
+.hero-btn{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    input{
+        border: none;
+        outline: none;
+        background-color: transparent;
+        width: 260px;
+        padding: 10px;
+    }
+    button{
+        border: none;
+        background-color: #3BB77E;
+        padding:18px;
+        border-radius: 50px;
+        width: 150px;
+        color:#fff ;
+        cursor: pointer;
+
+    }
+    .tg{
+        font-size: 22px;
+        
+    }
+}
+.section-card{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    width: 70px;
+    height: 0px;
+    border: 1px solid #ECECEC;
+    box-shadow: 5px 5px 15px 0px #0000000D;
+    border-radius: 30px;
+    padding: 20px;
+    p{
+        color: #3BB77E;
+        font-size: 14px;
+
+    }
+    .inc{
+        opacity: .4;
+    }
+   
+}
+.section-card:hover{
+    p{
+        color: black;
+    }
+    .inc{
+        opacity: 1;
+    }
+}
+.hero-right{
+    margin-top: 20px;
+    img{
+        width: 80%;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+}
+.section{
+    display: flex;
+    gap: 17px;
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+}
+.card{
+    width: 500.66px;
+height: 300.38px;
+border-radius: 10px;
+border: 1px solid F0E8D5;
+padding: 80px 0 30px 50px;
+background-color:#F0E8D5 ;
+display: flex;
+img{
+    width: 100%;
+    padding-bottom: 30px;
+    height: 300px;
+    background-color: transparent;
+}
+h1{
+    width: 225.92px;
+font-size: 24px;
+}
+button{
+background: #F53E32;
+    padding: 10px 20px;
+    border: 1px solid #F53E32;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 50px;
+}
+button:hover{
+    background-color: transparent;
+    color: #F53E32;
+    transition: 0.3s;
+}
+}
+.card:nth-child(2){
+    background-color: #F3E8E8 !important;
+}
+.card:nth-child(3){
+    background-color: #E7EAF3 !important;
+}
