@@ -2,6 +2,9 @@
     background:#E6E6E6;
     padding: 220px 0;
 }
+button{
+    cursor: pointer;
+}
 .hero-content{
     display: flex;
     gap: 200px;
@@ -136,4 +139,98 @@ button:hover{
 }
 .card:nth-child(3){
     background-color: #E7EAF3 !important;
+}
+
+
+
+.product-card{
+    width: 298px;
+border-radius: 15px;
+border: 1px ;
+padding: 10px 26px;
+border: 1px solid #ECECEC;
+img{
+    width: 246px;
+    height: 246px;
+}
+h6{
+    opacity: .4;
+}
+span{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    h3{
+        opacity: .4;
+        text-decoration:line-through;
+    }
+    button{
+        padding: 8px 18px;
+        background-color: #F53E32;
+        border: 1px solid #F53E32;
+        color: #fff;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    button:hover{
+        background-color: transparent;
+        color: #F53E32;
+        transition: .3s;
+    }
+}
+}
+.add-btn{
+    font-size:22px;
+}
+.products-cards{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+.shopping-content{
+    background-color: #D8F1E5;
+    padding: 83px 73px;
+    h1{
+font-size: 40px;
+width: 520px;
+
+    }
+    p{
+        opacity: .5;
+    }
+}
+.shop-btn{
+    background-color: #F53E32 !important;
+}
+.shopping-content{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.shop-cards{
+    display: flex;
+    gap: 10px;
+}
+.shop-card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F4F6FA;
+    width: 321px;
+padding: 20px 51.84px 20px 20px;
+border-radius: 10px ;
+p{
+    opacity: .6;
+}
 }
